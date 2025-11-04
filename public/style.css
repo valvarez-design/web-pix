@@ -1,4 +1,4 @@
-* WEBPIX CSS - Y2K Social Media Nostalgia */
+/* WEBPIX CSS  Y2K Social Media Nostalgia */
 
 /* Default theme colors */
 :root {
@@ -11,7 +11,7 @@
     --shadow-color: rgba(0, 0, 0, 0.1);
 }
 
-/* === THEMES === */
+/* THEMES */
 
 /* Theme 1: Pink Blingy */
 body[data-theme="1"] {
@@ -108,7 +108,7 @@ body[data-theme="5"] .sidebar-right {
     background-position: center;
 }
 
-/* === BASE STYLES === */
+/*  BASE STYLES  */
 
 * {
     margin: 0;
@@ -126,7 +126,7 @@ body {
     transition: background-image 0.5s ease, color 0.3s ease;
 }
 
-/* === HEADER === */
+/*  HEADER  */
 
 #main-header {
     background: rgba(255, 255, 255, 0.95);
@@ -144,7 +144,7 @@ body {
     letter-spacing: 2px;
 }
 
-/* === LAYOUT === */
+/* LAYOUT */
 
 .container {
     display: grid;
@@ -153,7 +153,6 @@ body {
     padding: 20px;
     margin: 0 auto;
     height: calc(100vh - 120px);
-    overflow: hidden;
     justify-content: center;
 }
 
@@ -164,7 +163,7 @@ body {
 }
 
 
-/* === USER BIO === */
+/* USER BIO */
 
 .user-bio {
     padding: 40px;
@@ -234,7 +233,7 @@ body {
     font-size: 0.95em;
 }
 
-/* === THEME SELECTOR === */
+/* THEME SELECTOR */
 
 .theme-selector {
     display: flex;
@@ -259,7 +258,7 @@ body {
     box-shadow: 0 4px 8px var(--shadow-color);
 }
 
-/* === CHATROOM (PIXCHAT) === */
+/*  CHATROOM (PIXCHAT) */
 
 .chatroom {
     padding: 40px;
@@ -385,7 +384,7 @@ body {
     border-radius: 4px;
 }
 
-/* === PHOTO GALLERY === */
+/*  PHOTO GALLERY */
 
 .sidebar-right {
     padding: 40px;
@@ -463,7 +462,7 @@ body {
     display: block;
 }
 
-/* === EMOJI REACTIONS === */
+/*  EMOJI REACTIONS */
 
 .reactions {
     padding: 12px;
